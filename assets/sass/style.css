@@ -1,0 +1,340 @@
+#navbar-up {
+  height: 7.5vh;
+  width: 100%;
+  background-color: rgb(228, 103, 2);
+}
+#navbar-up .nav-up-left ul {
+  display: flex;
+  margin-left: 20px;
+  list-style: none;
+}
+#navbar-up .nav-up-left ul li {
+  margin-left: 20px;
+  margin-top: 13px;
+}
+#navbar-up .nav-up-left ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+#navbar-up .nav-up-right {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 13px;
+  font-size: 14px;
+}
+#navbar-up .nav-up-right .lang a {
+  text-decoration: none;
+  color: white;
+}
+#navbar-up .nav-up-right .payment {
+  margin-left: 25px;
+  color: white;
+}
+#navbar-up .nav-up-right .payment a {
+  text-decoration: none;
+  color: white;
+}
+#navbar-up .nav-up-right .registration {
+  margin-left: 25px;
+  color: white;
+}
+#navbar-up .nav-up-right .registration a {
+  text-decoration: none;
+  color: white;
+}
+#navbar-up .nav-up-right .account {
+  margin-left: 25px;
+  color: white;
+}
+#navbar-up .nav-up-right .account a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar-middle {
+  height: 15vh;
+  width: 100%;
+}
+#navbar-middle .nav-mid-left {
+  display: flex;
+}
+#navbar-middle .nav-mid-left img {
+  width: 250px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+#navbar-middle .nav-mid-left .search {
+  margin-top: 35px;
+  margin-left: 25px;
+}
+#navbar-middle .nav-mid-left .search button {
+  height: 40px;
+  width: 240px;
+  border: 1px solid rgb(228, 103, 2);
+}
+#navbar-middle .nav-mid-left .search button i {
+  color: rgb(228, 103, 2);
+  margin-left: 100px;
+}
+#navbar-middle .nav-mid-right {
+  margin-left: 35px;
+  display: flex;
+}
+#navbar-middle .nav-mid-right h4 {
+  margin-top: 20px;
+  font-weight: 670;
+  font-size: 25px;
+  color: rgb(228, 103, 2);
+}
+#navbar-middle .nav-mid-right span {
+  font-size: 13px;
+}
+#navbar-middle .nav-mid-right .basket {
+  margin-left: 220px;
+}
+#navbar-middle .nav-mid-right .basket button {
+  background-color: rgb(228, 103, 2);
+  margin-top: 30px;
+  margin-left: 5px;
+  border-color: white;
+  height: 40px;
+  width: 40px;
+}
+#navbar-middle .nav-mid-right .basket button i {
+  color: white;
+}
+
+#navbar-down .category ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar-down .category ul li {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#navbar-down .category ul li a {
+  text-decoration: none;
+  color: rgb(56, 55, 55);
+  font-weight: 550;
+}
+
+#slide-first .slide-one img {
+  height: 68vh;
+  width: 100%;
+}
+
+#brands {
+  height: 15vh;
+  width: 80%;
+  border: 1px solid rgb(183, 176, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 60px;
+}
+#brands .logo {
+  margin-left: 35px;
+}
+
+#special-offer {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+#special-offer .left {
+  width: 760px;
+  height: 400px;
+  border: 1px solid rgb(183, 176, 176);
+}
+#special-offer .left .left-up {
+  width: 760px;
+  height: 50px;
+  color: rgb(80, 80, 80);
+  border: 1px solid rgb(183, 176, 176);
+}
+#special-offer .left .left-down {
+  display: flex;
+}
+#special-offer .left .left-down .left-down-text h5 {
+  font-weight: 650;
+  color: rgb(80, 80, 80);
+}
+#special-offer .left .left-down .left-down-text .price {
+  display: flex;
+}
+#special-offer .left .left-down .left-down-text .price h4 {
+  color: rgb(228, 103, 2);
+}
+#special-offer .left .left-down .left-down-text .price h6 {
+  color: rgb(80, 80, 80);
+  margin-top: 9px;
+  margin-left: 8px;
+  text-decoration: line-through;
+}
+#special-offer .right {
+  margin-left: 105px;
+}
+
+#filtered {
+  height: 5vh;
+  width: 80%;
+  border: 1px solid rgb(183, 176, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 60px;
+}
+#filtered .filters {
+  display: flex;
+}
+#filtered .filters ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#filtered .filters ul li {
+  margin-left: 35px;
+  margin-top: 13px;
+}
+#filtered .filters ul li a {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  font-weight: 680;
+}
+#filtered .filters .switch {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 240px;
+  height: 20px;
+  width: 20px;
+}
+#filtered .filters .switch i {
+  height: 55px;
+  width: 55px;
+}
+
+#cards {
+  height: 98vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 60px;
+  display: flex;
+}
+#cards .row {
+  margin-top: 45px;
+}
+#cards .row .card {
+  width: 240px;
+  border: none;
+}
+#cards .row .card h5 {
+  color: rgb(80, 80, 80);
+}
+#cards .row .card .price {
+  display: flex;
+}
+#cards .row .card .price h4 {
+  color: rgb(228, 103, 2);
+}
+#cards .row .card .price h6 {
+  text-decoration: line-through;
+  color: rgb(80, 80, 80);
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+#slide-two {
+  height: 300px;
+  width: 80%;
+  margin-left: 9%;
+}
+#slide-two .slide-two-left img {
+  height: 250px;
+  width: 380px;
+}
+#slide-two .slide-two-right img {
+  height: 250px;
+  width: 800px;
+}
+
+#blogs {
+  height: 330px;
+  width: 80%;
+  border: 1px solid rgb(183, 176, 176);
+  margin-left: 10%;
+}
+#blogs .blog {
+  display: flex;
+}
+#blogs .blog h5 {
+  margin-left: 100px;
+}
+#blogs .blog h5 .icon {
+  margin-left: 1000px;
+  margin-top: -20px;
+}
+#blogs .line-one {
+  width: 100%;
+  height: 1px;
+  border: 1px solid rgb(183, 176, 176);
+}
+#blogs .blog-down {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#blogs .blog-down img {
+  border-radius: 10px;
+}
+#blogs .blog-down .blog-down-text-one {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+#blogs .blog-down .blog-down-text-one a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 680;
+}
+#blogs .blog-down .blog-down-text-one span {
+  color: rgb(183, 176, 176);
+  font-size: 15px;
+}
+#blogs .blog-down .blog-down-text-one button {
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: rgb(80, 80, 80);
+  color: white;
+}
+
+#finish {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(49, 49, 49);
+  display: flex;
+}
+#finish .end {
+  width: 235px;
+  height: 240px;
+  margin-top: 45px;
+  margin-left: 10px;
+}
+#finish .end h5 {
+  color: rgb(207, 197, 197);
+}
+#finish .end h6 {
+  margin-top: 20px;
+  font-weight: 400;
+  color: rgb(207, 197, 197);
+}
+#finish .end .btn button {
+  background-color: white;
+  height: 35px;
+  width: 120px;
+}/*# sourceMappingURL=style.css.map */
